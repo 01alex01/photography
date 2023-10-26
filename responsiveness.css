@@ -1,0 +1,90 @@
+@media (max-width:1200px) {
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .navigation-nav ul li {
+        display: none;
+    }
+
+    .btn--1 {
+        display: none;
+    }
+
+    h1 .heading-primary-sub {
+        font-size: 4.2rem;
+    }
+
+    /* -----------------composition-section */
+    /* -----------------composition-section */
+    .composition .composition-text h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+}
+
+
+@media (max-width:899px) {
+
+    h1 .heading-primary-main {
+        font-size: 1rem;
+    }
+
+    h1 .heading-primary-sub {
+        font-size: 3.2rem;
+    }
+
+    .green-forest {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .green-forest .image {
+        width: 100%;
+        margin: 0%;
+        height: auto;
+    }
+
+    .green-forest .green-forest-text {
+        width: 100%;
+        padding: 0%;
+        margin: 2%;
+        height: auto;
+
+    }
+
+    /* -----------------composition-section */
+    /* -----------------composition-section */
+    .composition .composition-text h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .composition--container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100%;
+
+
+    }
+
+    /* -------------------------------feature stuff */
+    /* -------------------------------feature stuff */
+    /* -------------------------------feature stuff */
+
+    .feature-stuff .feature-stuff-image {
+        padding: 1rem 2rem;
+    }
+
+    .feature-stuff .feature-stuff-image img {
+        width: 40px;
+        height: 30.94px;
+
+    }
+}
