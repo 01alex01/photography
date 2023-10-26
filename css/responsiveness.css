@@ -1,0 +1,196 @@
+@media (max-width:1200px) {
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .navigation-nav ul li {
+        display: none;
+    }
+
+    .btn--1 {
+        display: none;
+    }
+
+    h1 .heading-primary-sub {
+        font-size: 4.2rem;
+    }
+
+    /* -----------------composition-section */
+    /* -----------------composition-section */
+    .composition .composition-text h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+}
+
+
+@media (max-width:899px) {
+
+    h1 .heading-primary-main {
+        font-size: 1rem;
+    }
+
+    h1 .heading-primary-sub {
+        font-size: 3.2rem;
+    }
+
+    .green-forest {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .green-forest .image {
+        width: 100%;
+        margin: 0%;
+        height: auto;
+    }
+
+    .green-forest .green-forest-text {
+        width: 100%;
+        padding: 0%;
+        margin: 2%;
+        height: auto;
+
+    }
+
+    /* -----------------composition-section */
+    /* -----------------composition-section */
+    .composition .composition-text h3 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .composition--container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100%;
+
+
+    }
+
+    /* -------------------------------feature stuff */
+    /* -------------------------------feature stuff */
+    /* -------------------------------feature stuff */
+
+    .feature-stuff .feature-stuff-image {
+        padding: 1rem 0rem;
+    }
+
+    .feature-stuff .feature-stuff-image img {
+        width: 35px;
+        height: 25.94px;
+
+    }
+
+    /* -------------------------collaps */
+    .collaps {
+        flex-direction: column;
+        gap: 5rem;
+        height: auto;
+    }
+
+    .collaps1 {
+        width: 100%;
+
+    }
+
+    .collaps1 h1 {
+        font-size: 54px;
+        margin-bottom: 30px;
+    }
+
+    .collaps1 h1:before {
+        content: '';
+        position: absolute;
+        width: 95px;
+        height: 5px;
+        top: 80px;
+        left: 13%;
+        background-color: #FFDC60;
+        transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
+    }
+
+    .collapsible label:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        top: 15px;
+        width: 15px;
+        height: 18px;
+
+    }
+
+
+    .collaps-img {
+        width: 100%;
+    }
+
+    /* -------------------review */
+    /* -------------------review */
+    .review-client {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .review-client--box {
+        width: 100%;
+    }
+
+    .review h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 53px;
+        letter-spacing: -0.01em;
+        position: relative;
+    }
+
+    /* ==========heir */
+    /* ==========heir */
+    .Heir h1 {
+        font-size: 2.6rem;
+        line-height: normal;
+
+    }
+
+    .Heir a {
+        padding: 20px 40px;
+        background: #FFDC60;
+        text-decoration: none;
+        color: #000;
+        font-weight: 800;
+
+    }
+
+    .Heir p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: #929292;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    /* =======================footer */
+    /* =======================footer */
+    /* =======================footer */
+
+
+    footer .footer-nav a {
+        padding: 10px 20px;
+    }
+
+
+
+
+}
