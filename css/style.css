@@ -29,6 +29,13 @@ header {
 
 }
 
+/* =======================================navigation */
+/* =======================================navigation */
+.topnav {
+    display: none;
+}
+
+/* =======================================navigation */
 .navigation {
     display: flex;
     align-items: center;
@@ -53,8 +60,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .navigation-nav ul li {
@@ -141,12 +146,9 @@ header button a {
     text-shadow: 3px 5px 5px #000;
 }
 
-
-/* button class */
-/* button class */
-/* button class */
-/* button class */
-
+/* ===================================hero=section=btn */
+/* ===================================hero=section=btn */
+/* ===================================hero=section=btn */
 
 .btn,
 .btn:link,
@@ -252,7 +254,9 @@ header button a {
     transform: translateY(0);
 }
 
-
+/* ===========================main */
+/* ===========================main */
+/* ===========================main */
 main {
     width: 100%;
     padding: 10%;
@@ -261,6 +265,9 @@ main {
     gap: 3rem;
 }
 
+/* ==============================================green-forest */
+/* ==============================================green-forest */
+/* ==============================================green-forest */
 .green-forest {
     display: flex;
     align-items: center;
@@ -322,6 +329,8 @@ main {
     padding: 1rem;
     background-color: #FFDC60;
     text-decoration: none;
+    color: #fff;
+    font-weight: 800;
 }
 
 .btn--3 {
@@ -341,6 +350,12 @@ main {
     background-color: #FFDC60;
     border: none;
 }
+
+
+/* ========================================composition */
+/* ========================================composition */
+/* ========================================composition */
+
 
 .composition {
     display: flex;
@@ -418,6 +433,9 @@ main {
     font-size: 4rem;
 }
 
+/* ====================================feature */
+/* ====================================feature */
+/* ====================================feature */
 .feature {
     display: flex;
     align-items: center;
@@ -668,6 +686,7 @@ main {
 
 /* ==========================REVIEW */
 /* ==========================REVIEW */
+/* ==========================REVIEW */
 .review {
     display: flex;
     align-items: center;
@@ -806,7 +825,9 @@ main {
     background: #FFDC60;
     text-decoration: none;
     color: #000;
+    font-weight: 800;
     border-radius: 100px;
+    font-size: 2rem;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;

@@ -3,6 +3,10 @@
         font-size: 1.5rem;
     }
 
+    .navigation {
+        display: none;
+    }
+
     .navigation-nav ul li {
         display: none;
     }
@@ -11,8 +15,65 @@
         display: none;
     }
 
+    .header__text-box {
+        z-index: 10;
+    }
+
     h1 .heading-primary-sub {
         font-size: 4.2rem;
+    }
+
+    /* ==================================================== */
+
+    .mobile-container {
+        width: 100%;
+        margin: auto;
+        height: 500px;
+        color: white;
+        border-radius: 10px;
+
+
+    }
+
+    .topnav {
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        /* background: rgba(255, 255, 255, 0.712); */
+        background-color: #000000e0;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.38);
+        z-index: 100;
+    }
+
+
+
+    .topnav a {
+        color: #fff;
+        font-weight: 800;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .active {
+        background-color: #FFDC60;
+        color: white;
     }
 
     /* -----------------composition-section */
